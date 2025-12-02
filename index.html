@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm2Fork Ledger - Trust in Every Bite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home-enhanced.css">
+    <link rel="stylesheet" href="css/mobile-responsive.css">
+    <link rel="stylesheet" href="css/footer-enhanced.css">
+    <link rel="stylesheet" href="css/qr-demo-enhanced.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <button class="menu-btn">
+                <i class='bx bx-menu'></i>
+            </button>
+            <div class="logo-container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Farm2Fork Ledger" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="pages/login.html" class="login-btn"><i class='bx bx-user'></i> Login</a>
+            </div>
+        </div>
+        <div class="offcanvas-backdrop" id="offcanvasBackdrop"></div>
+        <div class="mobile-offcanvas" id="mobileOffcanvas">
+            <div class="offcanvas-header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Farm2Fork Ledger" class="logo-img">
+                </div>
+                <button class="offcanvas-close"><i class='bx bx-x'></i></button>
+            </div>
+            <div class="offcanvas-menu">
+                <div class="menu-section">
+                    <h4>Platform</h4>
+                    <a href="#how-it-works"><i class='bx bx-info-circle'></i> How It Works</a>
+                    <a href="#features"><i class='bx bx-star'></i> Features</a>
+                    <a href="#technology"><i class='bx bx-chip'></i> Technology</a>
+                    <a href="#pricing"><i class='bx bx-dollar-circle'></i> Pricing</a>
+                </div>
+                <div class="menu-section">
+                    <h4>Resources</h4>
+                    <a href="#why-farm2fork"><i class='bx bx-heart'></i> Why Choose Us</a>
+                    <a href="#testimonials"><i class='bx bx-chat'></i> Testimonials</a>
+                    <a href="#faq"><i class='bx bx-help-circle'></i> FAQ</a>
+                    <a href="#blog"><i class='bx bx-book-open'></i> Blog</a>
+                </div>
+                <div class="menu-section">
+                    <h4>Company</h4>
+                    <a href="#about"><i class='bx bx-building'></i> About Us</a>
+                    <a href="#contact"><i class='bx bx-envelope'></i> Contact</a>
+                    <a href="pages/careers.html"><i class='bx bx-briefcase'></i> Careers</a>
+                </div>
+                <div class="menu-section">
+                    <h4>Get Started</h4>
+                    <a href="pages/register.html" class="menu-cta"><i class='bx bx-user-plus'></i> Sign Up Free</a>
+                    <a href="pages/login.html" class="menu-cta secondary"><i class='bx bx-log-in'></i> Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge" data-aos="fade-down">
+                <i class='bx bx-shield-alt-2'></i>
+                <span>Blockchain Verified</span>
+            </div>
+            <h1 data-aos="fade-up">Farm2Fork Ledger</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Revolutionizing food transparency with blockchain technology</p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="150">Track every step of your food's journey from farm to your table. Ensuring authenticity, quality, and fair trade practices.</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="pages/register.html" class="cta-button primary">
+                    <i class='bx bx-play-circle'></i>
+                    Get Started
+                </a>
+                <a href="https://youtu.be/DbnyBAGnXY8" target="_blank" rel="noopener noreferrer" class="cta-button secondary"> 
+                    <i class='bx bx-video'></i>
+                    Watch Demo
+                </a>
+            </div>
+            <div class="hero-trust-badges" data-aos="fade-up" data-aos-delay="300">
+                <div class="trust-item">
+                    <i class='bx bx-check-circle'></i>
+                    <span>100% Transparent</span>
+                </div>
+                <div class="trust-item">
+                    <i class='bx bx-lock-alt'></i>
+                    <span>Blockchain Secured</span>
+                </div>
+                <div class="trust-item">
+                    <i class='bx bx-leaf'></i>
+                    <span>Eco-Friendly</span>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline class="hero-bg-video">
+            <source src="images/herohome.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="fade-up">
+                    <div class="stat-icon">
+                        <i class='bx bx-user-check'></i>
+                    </div>
+                    <div class="stat-number" data-count="10000">0</div>
+                    <div class="stat-label">Registered Farmers</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon">
+                        <i class='bx bx-package'></i>
+                    </div>
+                    <div class="stat-number" data-count="50000">0</div>
+                    <div class="stat-label">Products Tracked</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon">
+                        <i class='bx bx-store'></i>
+                    </div>
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">Partner Retailers</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon">
+                        <i class='bx bx-happy'></i>
+                    </div>
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">Customer Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 data-aos="fade-up">How It Works</h2>
+            <div class="steps">
+                <div class="step" data-aos="fade-up">
+                    <div class="step-icon">
+                        <i class='bx bx-qr-scan'></i>
+                    </div>
+                    <h3>Register & Generate QR</h3>
+                    <p>Farmers register their crops and receive a unique QR code for tracking</p>
+                    <div class="step-number">1</div>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-icon">
+                        <i class='bx bx-cube-alt'></i>
+                    </div>
+                    <h3>Blockchain Record</h3>
+                    <p>Every transaction and movement is securely recorded on the blockchain</p>
+                    <div class="step-number">2</div>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-icon">
+                        <i class='bx bx-check-shield'></i>
+                    </div>
+                    <h3>Verify Authenticity</h3>
+                    <p>Consumers scan QR code to view the complete journey of their food</p>
+                    <div class="step-number">3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="qr-demo" class="qr-demo">
+        <div class="container">
+            <h2 data-aos="fade-up">Experience Transparency</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="50">Scan any product QR code to view its complete journey</p>
+            
+            <div class="qr-demo-grid">
+                <!-- Left Side - How it Works -->
+                <div class="demo-info-left" data-aos="fade-right">
+                    <div class="mobile-mockup">
+                        <div class="mobile-screen">
+                            <div class="mobile-header">
+                                <div class="mobile-notch"></div>
+                            </div>
+                            <div class="mobile-content">
+                                <div class="scan-instruction active">
+                                    <div class="instruction-icon">
+                                        <i class='bx bx-qr-scan'></i>
+                                    </div>
+                                    <h3>1. Scan QR Code</h3>
+                                    <p>Point your camera at the product QR code</p>
+                                </div>
+                            </div>
+                            <div class="mobile-bottom-bar"></div>
+                        </div>
+                    </div>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <i class='bx bx-mobile-alt'></i>
+                            <h4>Mobile First</h4>
+                            <p>Works on any smartphone browser</p>
+                        </div>
+                        <div class="info-card">
+                            <i class='bx bx-time-five'></i>
+                            <h4>Instant Results</h4>
+                            <p>Get product info in seconds</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Center - QR Scanner -->
+                <div class="demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="qr-scanner-mock">
+                        <div class="scan-line"></div>
+                        <div class="scan-overlay"></div>
+                        <div class="scan-corners">
+                            <span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="qr-sample">
+                            <svg viewBox="0 0 100 100" width="120" height="120">
+                                <rect width="100" height="100" fill="white"/>
+                                <rect x="10" y="10" width="15" height="15" fill="black"/>
+                                <rect x="75" y="10" width="15" height="15" fill="black"/>
+                                <rect x="10" y="75" width="15" height="15" fill="black"/>
+                                <rect x="30" y="15" width="5" height="5" fill="black"/>
+                                <rect x="40" y="15" width="5" height="5" fill="black"/>
+                                <rect x="50" y="15" width="5" height="5" fill="black"/>
+                                <rect x="30" y="25" width="5" height="5" fill="black"/>
+                                <rect x="50" y="25" width="5" height="5" fill="black"/>
+                                <rect x="30" y="35" width="15" height="5" fill="black"/>
+                                <rect x="50" y="35" width="15" height="5" fill="black"/>
+                                <rect x="30" y="45" width="5" height="5" fill="black"/>
+                                <rect x="40" y="45" width="10" height="5" fill="black"/>
+                                <rect x="55" y="45" width="10" height="5" fill="black"/>
+                                <rect x="30" y="55" width="5" height="5" fill="black"/>
+                                <rect x="45" y="55" width="5" height="5" fill="black"/>
+                                <rect x="60" y="55" width="5" height="5" fill="black"/>
+                                <rect x="30" y="65" width="10" height="5" fill="black"/>
+                                <rect x="50" y="65" width="15" height="5" fill="black"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <button id="scanButton" class="scan-button">
+                        <i class='bx bx-scan'></i>
+                        Scan QR Code
+                    </button>
+                    <p class="scan-hint">Click to try demo scan</p>
+                </div>
+
+                <!-- Right Side - Results Preview -->
+                <div class="demo-info-right" data-aos="fade-left">
+                    <div class="mobile-mockup">
+                        <div class="mobile-screen">
+                            <div class="mobile-header">
+                                <div class="mobile-notch"></div>
+                            </div>
+                            <div class="mobile-content result-view">
+                                <div class="result-header">
+                                    <i class='bx bx-check-shield'></i>
+                                    <h3>Verified Product</h3>
+                                </div>
+                                <div class="result-item">
+                                    <i class='bx bx-leaf'></i>
+                                    <div>
+                                        <strong>Organic Tomatoes</strong>
+                                        <span>Farm Fresh</span>
+                                    </div>
+                                </div>
+                                <div class="result-item">
+                                    <i class='bx bx-map'></i>
+                                    <div>
+                                        <strong>Origin</strong>
+                                        <span>Punjab, India</span>
+                                    </div>
+                                </div>
+                                <div class="result-item">
+                                    <i class='bx bx-calendar'></i>
+                                    <div>
+                                        <strong>Harvested</strong>
+                                        <span>2 days ago</span>
+                                    </div>
+                                </div>
+                                <div class="blockchain-badge">
+                                    <i class='bx bx-cube-alt'></i>
+                                    Blockchain Verified
+                                </div>
+                            </div>
+                            <div class="mobile-bottom-bar"></div>
+                        </div>
+                    </div>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <i class='bx bx-shield-alt-2'></i>
+                            <h4>100% Authentic</h4>
+                            <p>Blockchain verified data</p>
+                        </div>
+                        <div class="info-card">
+                            <i class='bx bx-line-chart'></i>
+                            <h4>Full Journey</h4>
+                            <p>Farm to your table</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="scan-chain" class="scan-chain">
+        <div class="container">
+            <h2 data-aos="fade-up">Scan as...</h2>
+            <p data-aos="fade-up" data-aos-delay="50" style="text-align: center; color: var(--text-light); margin-bottom: 2rem;">Login with your role to scan and track products</p>
+            <div class="scan-role-grid" data-aos="fade-up" data-aos-delay="100">
+                <a href="pages/login.html" class="scan-role-btn" data-role="farmer">
+                    <i class='bx bxs-leaf'></i> Farmer
+                </a>
+                <a href="pages/login.html" class="scan-role-btn" data-role="transit">
+                    <i class='bx bxs-truck'></i> Transit
+                </a>
+                <a href="pages/login.html" class="scan-role-btn" data-role="retailer">
+                    <i class='bx bxs-store'></i> Retailer
+                </a>
+                <a href="pages/login.html" class="scan-role-btn" data-role="consumer">
+                    <i class='bx bxs-user'></i> Consumer
+                </a>
+                <a href="pages/login.html" class="scan-role-btn" data-role="government">
+                    <i class='bx bxs-shield'></i> Government
+                </a>
+            </div>
+            <div class="chain-visual" data-aos="fade-up" data-aos-delay="200">
+                <div class="chain-step">
+                    <i class='bx bxs-leaf'></i>
+                    <span>Farmer</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </div>
+                <div class="chain-step">
+                    <i class='bx bxs-truck'></i>
+                    <span>Transit</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </div>
+                <div class="chain-step">
+                    <i class='bx bxs-store'></i>
+                    <span>Retailer</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </div>
+                <div class="chain-step">
+                    <i class='bx bxs-user'></i>
+                    <span>Consumer</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </div>
+                <div class="chain-step">
+                    <i class='bx bxs-shield'></i>
+                    <span>Government</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-farm2fork" class="why-farm2fork">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Why Choose Us</span>
+                <h2>Why Farm2Fork Ledger</h2>
+                <p class="section-subtitle">Experience the future of food supply chain management</p>
+            </div>
+            <div class="benefits">
+                <div class="benefit" data-aos="fade-up">
+                    <div class="benefit-icon">
+                        <i class='bx bx-line-chart'></i>
+                    </div>
+                    <h3>Complete Transparency</h3>
+                    <p>Track every step of your food's journey from farm to plate with real-time updates and complete visibility</p>
+                </div>
+                <div class="benefit" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-icon">
+                        <i class='bx bx-dollar-circle'></i>
+                    </div>
+                    <h3>Fair Trade Practices</h3>
+                    <p>Ensuring farmers receive fair compensation for their produce while maintaining competitive prices</p>
+                </div>
+                <div class="benefit" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-icon">
+                        <i class='bx bx-check-shield'></i>
+                    </div>
+                    <h3>Blockchain Security</h3>
+                    <p>Immutable blockchain technology ensures authenticity and prevents fraud across the supply chain</p>
+                </div>
+                <div class="benefit" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-icon">
+                        <i class='bx bx-leaf'></i>
+                    </div>
+                    <h3>Sustainable Farming</h3>
+                    <p>Promoting eco-friendly practices and reducing carbon footprint throughout the supply chain</p>
+                </div>
+                <div class="benefit" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-icon">
+                        <i class='bx bx-mobile-alt'></i>
+                    </div>
+                    <h3>Easy to Use</h3>
+                    <p>Simple QR code scanning and intuitive interface for all stakeholders in the supply chain</p>
+                </div>
+                <div class="benefit" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-icon">
+                        <i class='bx bx-support'></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated customer support team available round the clock to assist you with any queries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Testimonials</span>
+                <h2>What Our Users Say</h2>
+                <p class="section-subtitle">Trusted by thousands of farmers, retailers, and consumers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p class="testimonial-text">"Farm2Fork has transformed how we manage our produce. The transparency it provides has increased customer trust significantly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Organic Farmer, Punjab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p class="testimonial-text">"As a retailer, this platform has helped us build stronger relationships with farmers and provide verified products to our customers."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Store Owner, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p class="testimonial-text">"Finally, I can know exactly where my food comes from. The QR scanning feature is incredibly easy to use and informative."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Amit Patel</h4>
+                            <p>Consumer, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Features</span>
+                <h2>Powerful Features for Every Stakeholder</h2>
+                <p class="section-subtitle">Everything you need to manage your food supply chain</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class='bx bx-qr-scan'></i>
+                    </div>
+                    <h3>QR Code Generation</h3>
+                    <p>Instantly generate unique QR codes for every product batch</p>
+                    <ul class="feature-list">
+                        <li><i class='bx bx-check'></i> Batch tracking</li>
+                        <li><i class='bx bx-check'></i> Print & download</li>
+                        <li><i class='bx bx-check'></i> Customizable labels</li>
+                    </ul>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class='bx bx-line-chart-down'></i>
+                    </div>
+                    <h3>Real-Time Analytics</h3>
+                    <p>Track performance with comprehensive dashboards</p>
+                    <ul class="feature-list">
+                        <li><i class='bx bx-check'></i> Sales insights</li>
+                        <li><i class='bx bx-check'></i> Inventory tracking</li>
+                        <li><i class='bx bx-check'></i> Custom reports</li>
+                    </ul>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class='bx bx-mobile-alt'></i>
+                    </div>
+                    <h3>Mobile First</h3>
+                    <p>Access from anywhere on any device</p>
+                    <ul class="feature-list">
+                        <li><i class='bx bx-check'></i> iOS & Android apps</li>
+                        <li><i class='bx bx-check'></i> Offline mode</li>
+                        <li><i class='bx bx-check'></i> Push notifications</li>
+                    </ul>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class='bx bx-shield-quarter'></i>
+                    </div>
+                    <h3>Fraud Prevention</h3>
+                    <p>Blockchain-powered security against counterfeits</p>
+                    <ul class="feature-list">
+                        <li><i class='bx bx-check'></i> Immutable records</li>
+                        <li><i class='bx bx-check'></i> Tamper-proof</li>
+                        <li><i class='bx bx-check'></i> Audit trails</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <div class="tech-content">
+                <div class="tech-text" data-aos="fade-right">
+                    <span class="section-badge">Technology</span>
+                    <h2>Built on Cutting-Edge Technology</h2>
+                    <p>Our platform leverages the latest in blockchain, IoT, and AI to provide unparalleled transparency and security.</p>
+                    <div class="tech-features">
+                        <div class="tech-item">
+                            <i class='bx bx-cube-alt'></i>
+                            <div>
+                                <h4>Blockchain Integration</h4>
+                                <p>Ethereum-based smart contracts ensure data integrity</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bx-chip'></i>
+                            <div>
+                                <h4>IoT Sensors</h4>
+                                <p>Real-time temperature and location tracking</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bx-brain'></i>
+                            <div>
+                                <h4>AI-Powered Insights</h4>
+                                <p>Predictive analytics for better decision making</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-visual" data-aos="fade-left">
+                    <div class="tech-stack">
+                        <div class="tech-badge">Blockchain</div>
+                        <div class="tech-badge">IoT</div>
+                        <div class="tech-badge">AI/ML</div>
+                        <div class="tech-badge">Cloud</div>
+                        <div class="tech-badge">Mobile</div>
+                        <div class="tech-badge">Analytics</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Pricing</span>
+                <h2>Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that fits your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">0</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Perfect for small farmers</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class='bx bx-check'></i> Up to 100 products</li>
+                        <li><i class='bx bx-check'></i> QR code generation</li>
+                        <li><i class='bx bx-check'></i> Basic analytics</li>
+                        <li><i class='bx bx-check'></i> Mobile app access</li>
+                        <li class="disabled"><i class='bx bx-x'></i> Priority support</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started Free</button>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">999</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>For growing businesses</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class='bx bx-check'></i> Unlimited products</li>
+                        <li><i class='bx bx-check'></i> Advanced analytics</li>
+                        <li><i class='bx bx-check'></i> IoT integration</li>
+                        <li><i class='bx bx-check'></i> API access</li>
+                        <li><i class='bx bx-check'></i> Priority support</li>
+                    </ul>
+                    <button class="pricing-btn primary">Start Free Trial</button>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="amount">Custom</span>
+                        </div>
+                        <p>For large organizations</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class='bx bx-check'></i> Everything in Pro</li>
+                        <li><i class='bx bx-check'></i> Custom integrations</li>
+                        <li><i class='bx bx-check'></i> Dedicated support</li>
+                        <li><i class='bx bx-check'></i> SLA guarantee</li>
+                        <li><i class='bx bx-check'></i> Training & onboarding</li>
+                    </ul>
+                    <button class="pricing-btn">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about Farm2Fork</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h4>How does blockchain ensure food safety?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Blockchain creates an immutable record of every transaction in the supply chain. Once data is recorded, it cannot be altered or deleted, ensuring complete transparency and preventing fraud.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="50">
+                    <div class="faq-question">
+                        <h4>Is the platform easy to use for farmers?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We've designed the platform with simplicity in mind. Farmers can register products and generate QR codes with just a few taps on their mobile phones.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h4>What devices are supported?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Farm2Fork works on all modern devices including smartphones (iOS & Android), tablets, and desktop computers. We also have dedicated mobile apps for better experience.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="faq-question">
+                        <h4>How much does it cost?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a free starter plan for small farmers. Professional plans start at ₹999/month. Enterprise pricing is customized based on your needs.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h4>Can I try before committing?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer a 30-day free trial for all paid plans. No credit card required to start.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                    <div class="faq-question">
+                        <h4>What support is available?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide 24/7 email support for all users. Professional and Enterprise plans include priority phone support and dedicated account managers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <span class="section-badge">About Us</span>
+                    <h2>Building Trust in the Food Supply Chain</h2>
+                    <p>Farm2Fork Ledger was founded with a simple mission: to bring complete transparency to the food supply chain using blockchain technology.</p>
+                    <p>We believe that everyone deserves to know where their food comes from, how it was grown, and who handled it along the way. Our platform empowers farmers, ensures fair trade, and gives consumers the confidence they deserve.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <h3>2023</h3>
+                            <p>Founded</p>
+                        </div>
+                        <div class="about-stat">
+                            <h3>50+</h3>
+                            <p>Team Members</p>
+                        </div>
+                        <div class="about-stat">
+                            <h3>15+</h3>
+                            <p>States Covered</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-card">
+                        <i class='bx bx-target-lock'></i>
+                        <h4>Our Mission</h4>
+                        <p>Revolutionize food transparency through blockchain technology</p>
+                    </div>
+                    <div class="about-card">
+                        <i class='bx bx-bulb'></i>
+                        <h4>Our Vision</h4>
+                        <p>A world where every food product is traceable and trustworthy</p>
+                    </div>
+                    <div class="about-card">
+                        <i class='bx bx-heart'></i>
+                        <h4>Our Values</h4>
+                        <p>Transparency, integrity, and sustainability in everything we do</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Transform Your Food Supply Chain?</h2>
+                <p>Join thousands of farmers, retailers, and consumers who trust Farm2Fork Ledger</p>
+                <div class="cta-buttons">
+                    <a href="pages/login.html" class="cta-btn primary">
+                        <i class='bx bx-user-plus'></i>
+                        Get Started Free
+                    </a>
+                    <a href="#contact" class="cta-btn secondary">
+                        <i class='bx bx-phone'></i>
+                        Contact Sales
+                    </a>
+                </div>
+                <p class="cta-note">No credit card required • Free 30-day trial • Cancel anytime</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scan Modal -->
+    <div class="scan-modal" id="scanModal" aria-hidden="true">
+        <div class="scan-modal-content">
+            <button class="scan-close" id="scanClose"><i class='bx bx-x'></i></button>
+            <h3 id="scanModalTitle">Scan as...</h3>
+            <div class="scan-instructions">Point your camera at a product QR code</div>
+            <button class="cta-button" id="startScanBtn">Start Scanning</button>
+            
+            <!-- Role-specific forms -->
+            <div class="role-forms">
+                <form id="farmerForm" class="role-form" style="display: none;">
+                    <h4>Update Product Status</h4>
+                    <div class="form-group">
+                        <label for="farmPrice">Selling Price</label>
+                        <input type="number" id="farmPrice" placeholder="Enter selling price" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="farmNotes">Notes</label>
+                        <textarea id="farmNotes" placeholder="Add any additional notes"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Update Status</button>
+                </form>
+
+                <form id="transitForm" class="role-form" style="display: none;">
+                    <h4>Update Transit Status</h4>
+                    <div class="form-group">
+                        <label for="transitStatus">Status</label>
+                        <select id="transitStatus" required>
+                            <option value="picked">Picked Up</option>
+                            <option value="delivered">Delivered</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="transitPrice">Transit Cost</label>
+                        <input type="number" id="transitPrice" placeholder="Enter transit cost" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Update Status</button>
+                </form>
+
+                <form id="retailerForm" class="role-form" style="display: none;">
+                    <h4>Retailer Update</h4>
+                    <div class="form-group">
+                        <label for="retailStatus">Status</label>
+                        <select id="retailStatus" required>
+                            <option value="received">Received</option>
+                            <option value="on-shelf">On Shelf</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="retailPrice">Retail Price</label>
+                        <input type="number" id="retailPrice" placeholder="Enter retail price" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Update Status</button>
+                </form>
+
+                <form id="consumerForm" class="role-form" style="display: none;">
+                    <h4>Product Information</h4>
+                    <div class="price-history">
+                        <h5>Price History</h5>
+                        <div id="priceTimeline"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="purchasePrice">Purchase Price</label>
+                        <input type="number" id="purchasePrice" placeholder="Enter purchase price">
+                    </div>
+                    <button type="submit" class="submit-btn">Confirm Purchase</button>
+                </form>
+                
+                <form id="governmentForm" class="role-form" style="display: none;">
+                    <h4>Government Verification</h4>
+                    <div class="form-group">
+                        <label for="govNotes">Verification Notes</label>
+                        <textarea id="govNotes" placeholder="Add verification notes"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="govVerified">Verified</label>
+                        <select id="govVerified">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Verification</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="contact" class="modern-footer">
+        <div class="footer-pattern"></div>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-col footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Farm2Fork Ledger" class="footer-logo-img">
+                    </div>
+                    <p class="footer-tagline">Trust in Every Bite</p>
+                    <p class="footer-description">Revolutionizing food transparency with blockchain technology. Track every step from farm to fork.</p>
+                    <div class="footer-social">
+                        <a href="https://in.linkedin.com/in/sushantmaharaj" class="footer-social-link" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://www.youtube.com/@farm2fork-SIH" class="footer-social-link" aria-label="YouTube">
+                            <i class='bx bxl-youtube'></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="#how-it-works"><i class='bx bx-chevron-right'></i> How It Works</a></li>
+                        <li><a href="#features"><i class='bx bx-chevron-right'></i> Features</a></li>
+                        <li><a href="#technology"><i class='bx bx-chevron-right'></i> Technology</a></li>
+                        <li><a href="#pricing"><i class='bx bx-chevron-right'></i> Pricing</a></li>
+                        <li><a href="#testimonials"><i class='bx bx-chevron-right'></i> Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about"><i class='bx bx-chevron-right'></i> About Us</a></li>
+                        <li><a href="pages/careers.html"><i class='bx bx-chevron-right'></i> Careers</a></li>
+                        <li><a href="#blog"><i class='bx bx-chevron-right'></i> Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#faq"><i class='bx bx-chevron-right'></i> FAQ</a></li>
+                        <li><a href="#contact"><i class='bx bx-chevron-right'></i> Support Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class='bx bx-envelope'></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:sushantmaharaj2@gmail.com">sushantmaharaj2@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class='bx bx-phone'></i>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+917005382726">+91 70053 82726</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class='bx bx-map'></i>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span>Lucknow, India</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="footer-copyright">&copy; 2025 Farm2Fork Ledger. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="pages/privacy-policy.html">Privacy Policy</a>
+                        <span class="separator">•</span>
+                        <a href="pages/terms-of-service.html">Terms of Service</a>
+                        <span class="separator">•</span>
+                        <a href="pages/cookie-policy.html">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- jsQR for QR code decoding -->
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+    <script>
+        // Header scroll animation
+        let lastScrollTop = 0;
+        const navbar = document.querySelector('.navbar');
+        const threshold = 100;
+
+        window.addEventListener('scroll', () => {
+            let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (currentScroll > threshold) {
+                if (currentScroll > lastScrollTop) {
+                    navbar.classList.remove('scrolled');
+                } else {
+                    navbar.classList.add('scrolled');
+                }
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            lastScrollTop = currentScroll;
+        });
+
+        // Menu toggle
+        const menuBtn = document.querySelector('.menu-btn');
+        const offcanvas = document.querySelector('.mobile-offcanvas');
+        const closeBtn = document.querySelector('.offcanvas-close');
+        const backdrop = document.querySelector('.offcanvas-backdrop');
+
+        menuBtn.addEventListener('click', () => {
+            offcanvas.classList.add('active');
+            backdrop.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            offcanvas.classList.remove('active');
+            backdrop.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Close on backdrop click
+        backdrop.addEventListener('click', () => {
+            offcanvas.classList.remove('active');
+            backdrop.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        // Scan role modal logic
+        document.querySelectorAll('.scan-role-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.getElementById('scanModal').classList.add('active');
+                document.getElementById('scanModalTitle').textContent = 'Scan as ' + this.textContent.trim();
+                document.body.style.overflow = 'hidden';
+            });
+        });
+        document.getElementById('scanClose').addEventListener('click', function() {
+            document.getElementById('scanModal').classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Animated counter for stats
+        function animateCounter(element) {
+            const target = parseInt(element.getAttribute('data-count'));
+            const duration = 2000;
+            const increment = target / (duration / 16);
+            let current = 0;
+
+            const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+                    element.textContent = Math.floor(current).toLocaleString();
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target.toLocaleString() + (element.parentElement.querySelector('.stat-label').textContent.includes('Satisfaction') ? '%' : '+');
+                }
+            };
+            updateCounter();
+        }
+
+        // Intersection Observer for stats animation
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(num => {
+                        if (!num.classList.contains('animated')) {
+                            num.classList.add('animated');
+                            animateCounter(num);
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const statsSection = document.querySelector('.stats-section');
+        if (statsSection) {
+            statsObserver.observe(statsSection);
+        }
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-item').forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(faq => {
+                    faq.classList.remove('active');
+                });
+                
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const offset = 80; // navbar height
+                    const targetPosition = target.offsetTop - offset;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close offcanvas if open
+                    offcanvas.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        });
+
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // QR Demo Interactive Animation
+        const scanButton = document.getElementById('scanButton');
+        if (scanButton) {
+            scanButton.addEventListener('click', function() {
+                const scanner = document.querySelector('.qr-scanner-mock');
+                const qrSample = document.querySelector('.qr-sample');
+                
+                // Add scanning animation
+                scanner.style.transform = 'scale(1.05)';
+                qrSample.style.animation = 'none';
+                
+                setTimeout(() => {
+                    scanner.style.transform = 'scale(1)';
+                    qrSample.style.animation = 'float 3s ease-in-out infinite';
+                    
+                    // Show success message
+                    const hint = document.querySelector('.scan-hint');
+                    const originalText = hint.textContent;
+                    hint.textContent = '✓ Scan successful! Product verified';
+                    hint.style.color = '#2ecc71';
+                    hint.style.fontWeight = 'bold';
+                    
+                    setTimeout(() => {
+                        hint.textContent = originalText;
+                        hint.style.color = '';
+                        hint.style.fontWeight = '';
+                    }, 3000);
+                }, 1000);
+            });
+        }
+
+        // Ensure hero video plays on all devices
+        const heroVideo = document.querySelector('.hero-bg-video');
+        if (heroVideo) {
+            // Force play on load
+            heroVideo.play().catch(err => {
+                console.log('Video autoplay prevented:', err);
+            });
+
+            // Ensure video loops
+            heroVideo.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            });
+
+            // Handle visibility change (when tab becomes active)
+            document.addEventListener('visibilitychange', function() {
+                if (!document.hidden && heroVideo.paused) {
+                    heroVideo.play().catch(err => {
+                        console.log('Video play prevented:', err);
+                    });
+                }
+            });
+
+            // iOS specific: play on user interaction if needed
+            let hasPlayed = false;
+            const playOnInteraction = () => {
+                if (!hasPlayed) {
+                    heroVideo.play().catch(err => {
+                        console.log('Video play prevented:', err);
+                    });
+                    hasPlayed = true;
+                }
+            };
+
+            // Try to play on first user interaction
+            document.addEventListener('touchstart', playOnInteraction, { once: true });
+            document.addEventListener('click', playOnInteraction, { once: true });
+        }
+    </script>
+    <!-- Video modal for camera scan -->
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+        <div class="video-modal-content">
+            <button class="video-close" id="videoClose"><i class='bx bx-x'></i></button>
+            <video id="video" autoplay playsinline muted></video>
+            <canvas id="videoCanvas"></canvas>
+            <div class="video-overlay">
+                <div class="overlay-corners"></div>
+                <div class="overlay-line"></div>
+            </div>
+            <div class="video-instructions">Point your camera at a product QR code</div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/scan-handler.js"></script>
+</body>
+</html>
